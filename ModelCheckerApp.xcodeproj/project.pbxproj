@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B8634EC28467FCF00FF0984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8634EB28467FCF00FF0984 /* AppDelegate.swift */; };
+		3B8634EE28467FCF00FF0984 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8634ED28467FCF00FF0984 /* ContentView.swift */; };
+		3B8634F228467FD100FF0984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8634F128467FD100FF0984 /* Assets.xcassets */; };
+		3B8634F528467FD100FF0984 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8634F428467FD100FF0984 /* Preview Assets.xcassets */; };
+		3B8634FD2846819D00FF0984 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3B8634FC2846819D00FF0984 /* chair_swan.usdz */; };
+		3B863501284681C700FF0984 /* LunarRover_English.reality in Resources */ = {isa = PBXBuildFile; fileRef = 3B863500284681C700FF0984 /* LunarRover_English.reality */; };
+		3B863503284681EB00FF0984 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3B863502284681EB00FF0984 /* fender_stratocaster.usdz */; };
+		3B863505284681F000FF0984 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3B863504284681F000FF0984 /* toy_robot_vintage.usdz */; };
+		3B863507284686DF00FF0984 /* ModelCheckerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B863506284686DF00FF0984 /* ModelCheckerView.swift */; };
+		3B86350928468C7100FF0984 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B86350828468C7100FF0984 /* ButtonsView.swift */; };
+		3B86350B2846952400FF0984 /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B86350A2846952400FF0984 /* ARModel.swift */; };
+		3B8635102846999300FF0984 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B86350F2846999300FF0984 /* CustomARView.swift */; };
+		3B8F733D2846A0AF00C1D898 /* RealityFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B86351628469F0C00FF0984 /* RealityFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3B8F73422846A15300C1D898 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 3B8F73412846A15300C1D898 /* FocusEntity */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B8634E828467FCF00FF0984 /* ModelCheckerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelCheckerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8634EB28467FCF00FF0984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B8634ED28467FCF00FF0984 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B8634F128467FD100FF0984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B8634F428467FD100FF0984 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B8634FC2846819D00FF0984 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		3B863500284681C700FF0984 /* LunarRover_English.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = LunarRover_English.reality; sourceTree = "<group>"; };
+		3B863502284681EB00FF0984 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		3B863504284681F000FF0984 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		3B863506284686DF00FF0984 /* ModelCheckerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCheckerView.swift; sourceTree = "<group>"; };
+		3B86350828468C7100FF0984 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		3B86350A2846952400FF0984 /* ARModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
+		3B86350F2846999300FF0984 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		3B86351228469EFD00FF0984 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		3B86351428469F0300FF0984 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		3B86351628469F0C00FF0984 /* RealityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityFoundation.framework; path = System/Library/Frameworks/RealityFoundation.framework; sourceTree = SDKROOT; };
+		3B86351A28469F6E00FF0984 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B8634E528467FCF00FF0984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8F73422846A15300C1D898 /* FocusEntity in Frameworks */,
+				3B8F733D2846A0AF00C1D898 /* RealityFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B8634DF28467FCF00FF0984 = {
+			isa = PBXGroup;
+			children = (
+				3B8634EA28467FCF00FF0984 /* ModelCheckerApp */,
+				3B8634E928467FCF00FF0984 /* Products */,
+				3B86351128469EFD00FF0984 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B8634E928467FCF00FF0984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B8634E828467FCF00FF0984 /* ModelCheckerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B8634EA28467FCF00FF0984 /* ModelCheckerApp */ = {
+			isa = PBXGroup;
+			children = (
+				3B8634EB28467FCF00FF0984 /* AppDelegate.swift */,
+				3B8634ED28467FCF00FF0984 /* ContentView.swift */,
+				3B863506284686DF00FF0984 /* ModelCheckerView.swift */,
+				3B86350828468C7100FF0984 /* ButtonsView.swift */,
+				3B86350F2846999300FF0984 /* CustomARView.swift */,
+				3B86350A2846952400FF0984 /* ARModel.swift */,
+				3B8634FB2846817C00FF0984 /* Models */,
+				3B8634F128467FD100FF0984 /* Assets.xcassets */,
+				3B8634F328467FD100FF0984 /* Preview Content */,
+			);
+			path = ModelCheckerApp;
+			sourceTree = "<group>";
+		};
+		3B8634F328467FD100FF0984 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B8634F428467FD100FF0984 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B8634FB2846817C00FF0984 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B863500284681C700FF0984 /* LunarRover_English.reality */,
+				3B8634FC2846819D00FF0984 /* chair_swan.usdz */,
+				3B863502284681EB00FF0984 /* fender_stratocaster.usdz */,
+				3B863504284681F000FF0984 /* toy_robot_vintage.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B86351128469EFD00FF0984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B86351A28469F6E00FF0984 /* Combine.framework */,
+				3B86351628469F0C00FF0984 /* RealityFoundation.framework */,
+				3B86351428469F0300FF0984 /* SceneKit.framework */,
+				3B86351228469EFD00FF0984 /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B8634E728467FCF00FF0984 /* ModelCheckerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8634F828467FD100FF0984 /* Build configuration list for PBXNativeTarget "ModelCheckerApp" */;
+			buildPhases = (
+				3B8634E428467FCF00FF0984 /* Sources */,
+				3B8634E528467FCF00FF0984 /* Frameworks */,
+				3B8634E628467FCF00FF0984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModelCheckerApp;
+			packageProductDependencies = (
+				3B8F73412846A15300C1D898 /* FocusEntity */,
+			);
+			productName = ModelCheckerApp;
+			productReference = 3B8634E828467FCF00FF0984 /* ModelCheckerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B8634E028467FCF00FF0984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3B8634E728467FCF00FF0984 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B8634E328467FCF00FF0984 /* Build configuration list for PBXProject "ModelCheckerApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B8634DF28467FCF00FF0984;
+			packageReferences = (
+				3B8F73402846A15300C1D898 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = 3B8634E928467FCF00FF0984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B8634E728467FCF00FF0984 /* ModelCheckerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B8634E628467FCF00FF0984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8634FD2846819D00FF0984 /* chair_swan.usdz in Resources */,
+				3B863503284681EB00FF0984 /* fender_stratocaster.usdz in Resources */,
+				3B863505284681F000FF0984 /* toy_robot_vintage.usdz in Resources */,
+				3B8634F528467FD100FF0984 /* Preview Assets.xcassets in Resources */,
+				3B8634F228467FD100FF0984 /* Assets.xcassets in Resources */,
+				3B863501284681C700FF0984 /* LunarRover_English.reality in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B8634E428467FCF00FF0984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8634EE28467FCF00FF0984 /* ContentView.swift in Sources */,
+				3B863507284686DF00FF0984 /* ModelCheckerView.swift in Sources */,
+				3B86350928468C7100FF0984 /* ButtonsView.swift in Sources */,
+				3B8634EC28467FCF00FF0984 /* AppDelegate.swift in Sources */,
+				3B8635102846999300FF0984 /* CustomARView.swift in Sources */,
+				3B86350B2846952400FF0984 /* ARModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B8634F628467FD100FF0984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B8634F728467FD100FF0984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B8634F928467FD100FF0984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModelCheckerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = F5P632GZ3N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ModelCheckerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B8634FA28467FD100FF0984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModelCheckerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = F5P632GZ3N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ModelCheckerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B8634E328467FCF00FF0984 /* Build configuration list for PBXProject "ModelCheckerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8634F628467FD100FF0984 /* Debug */,
+				3B8634F728467FD100FF0984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8634F828467FD100FF0984 /* Build configuration list for PBXNativeTarget "ModelCheckerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8634F928467FD100FF0984 /* Debug */,
+				3B8634FA28467FD100FF0984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B8F73402846A15300C1D898 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B8F73412846A15300C1D898 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B8F73402846A15300C1D898 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3B8634E028467FCF00FF0984 /* Project object */;
+}
