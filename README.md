@@ -2,4 +2,4 @@
 ## Description
 
 App calculating location and space allowing manipulated Augmented Reality Objects
-![Alt text](Preview.Demo.png?raw=true "Demo")
+![Alt text](Preview.Demo.PNG?raw=true "Demo")
